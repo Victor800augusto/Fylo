@@ -27,12 +27,15 @@ a {
 }
 h1 {
     font-size: 1.5rem;
+    font-family: Raleway;
 }
 h2 {
     font-size: 1.25rem;
+    font-family: Raleway;
 }   
 h3 {
     font-size: 1em;
+    font-family: Raleway;
 }
 
 .flex {
@@ -135,6 +138,8 @@ h3 {
 
 .advantages {
     padding: 40px 0;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .advantages ul {
@@ -144,7 +149,7 @@ h3 {
 
 .advantages ul li {
     max-width: 390px;
-    margin: 20px;
+    margin: 20px 50px;
     display: inline-block;
     text-align: center;
 }
@@ -157,19 +162,64 @@ h3 {
     margin: 15px auto;
 }
 
+@media (min-width: 376px) and (max-width:1100px){
+    .advantages ul li {
+        margin: 10px 0;
+    }
+}
+
 @media (max-width: 375px) {
+    .advantages {
+        max-width: 375px;
+    }
     .advantages ul li {
         width: 320px;
         margin: 10px 0;
     }
 }
 
+/* Stay Productive */
 
+.stay-productive {
+    padding: 40px 0;
+    max-width: 1440px;
+}
 
+.stay-productive > div{
+    align-items: center;
+    justify-content: center;
+}
 
+.stay-productive div div{
+    max-width: 400px;
+    margin: 20px;
+}
 
+.stay-productive h1{
+    max-width: 200px;
+    margin: 20px 0;
+}
+.stay-productive p{
+    margin: 20px 0;
+}
+.link{
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+}
 
+.link span {
+    background: url(../imagens/icon-arrow.svg) no-repeat;
+    padding: 10px;
+    position: relative;
+    bottom: -12px;
+    right: -5px;
+}
 
+@media (max-width: 375px) {
+    .stay-productive {
+        max-width: 375px;
+    }
+}
 
 
 
