@@ -1,0 +1,30 @@
+/* Reset */
+* {
+    padding: 0px;
+    margin: 0px; 
+    box-sizing: border-box;
+}
+body{
+    font-family: Open Sans;
+    color: hsl(0, 0%, 100%);
+    background: hsl(218, 28%, 13%);
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+.menu-logo {
+    display: block;
+}
