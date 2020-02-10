@@ -48,6 +48,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
 }
+
 /* Header */
 
 .menu {
@@ -84,7 +85,6 @@ h3 {
 }
 
 /* Get Started */
-
 
 .get-started {
     text-align: center;
@@ -131,10 +131,38 @@ h3 {
     }
 }
 
+/* Advantages */
 
+.advantages {
+    padding: 40px 0;
+}
 
+.advantages ul {
+    margin: 0 auto;
+    text-align: center;
+}
 
+.advantages ul li {
+    max-width: 390px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
 
+.advantages h3 {
+    margin: 10px auto;
+}
+
+.advantages img {
+    margin: 15px auto;
+}
+
+@media (max-width: 375px) {
+    .advantages ul li {
+        width: 320px;
+        margin: 10px 0;
+    }
+}
 
 
 
