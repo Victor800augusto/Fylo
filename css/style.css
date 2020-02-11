@@ -306,6 +306,7 @@ h4 {
     box-shadow: 1px;
     position: relative;
     bottom: -100px;
+    box-shadow: 4px 4px 2px rgba(0,0,0,0.2);
 }
 
 .access-today h2{
