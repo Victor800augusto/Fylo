@@ -341,7 +341,7 @@ h4 {
 }
 
 .footer > div{
-    padding: 130px 40px 20px 40px;
+    padding: 150px 40px 20px 40px;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -412,8 +412,22 @@ h4 {
 
 .footer-social {
     margin: 36px 20px 20px 20px;
+    width: 100px;
 }
 
-.test {
-    justify-content: space-between;
+.footer-social i{
+    margin: 0 10px;
+}
+
+.footer-lista {
+    justify-content: space-around;
+}
+
+@media (max-width:730px) {
+    .footer-lista {
+        display: block;
+    }
+    .footer-social {
+        margin: 10px auto;
+    }
 }
