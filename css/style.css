@@ -34,7 +34,7 @@ h2 {
     font-family: Raleway;
 }   
 h3 {
-    font-size: 1em;
+    font-size: 1rem;
     font-family: Raleway;
 }
 h4 {
@@ -225,6 +225,10 @@ h4 {
     .stay-productive {
         max-width: 375px;
     }
+    .stay-productive h1{
+        max-width: 300px;
+        font-size: 1.125rem;
+    }
 }
 
 /* Comments */
@@ -246,7 +250,7 @@ h4 {
     text-align: left;
     max-width: 325px;
     background: hsl(219, 30%, 18%);
-    margin: 15px;
+    margin: 15px 25px;
     padding: 30px 20px 20px 20px;
     border-radius: 5px;
 }
@@ -277,6 +281,9 @@ h4 {
 @media (max-width: 375px) {
     .comments span {
         transform: scale(0.5);
+    }
+    .comments > ul li {
+        font-size: 0.6875rem;
     }
 }
 
@@ -446,6 +453,6 @@ h4 {
         display: block;
     }
     .footer-social {
-        margin: 10px auto;
+        margin: 40px auto 20px auto;
     }
 }
